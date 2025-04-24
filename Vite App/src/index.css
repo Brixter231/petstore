@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.gallery-container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+.artist-description {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 10px;
+  background-color: #e0e0e0; /* Lighter background for better readability */
+  border-radius: 8px;
+  color: #333; /* Darker text for better contrast */
+  line-height: 1.6; /* Improve text spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for lift effect */
+}
+
+.button-container {
+  margin: 10px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 16px; /* Slightly larger padding for better clickability */
+  border: none;
+  background-color: #c70f0f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 200ms ease, transform 200ms ease; /* Smooth hover effects */
+}
+
+button:hover {
+  background-color: #0bb630;
+  transform: scale(1.05); /* Slight hover enlargement */
+}
+
+.artist-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Centered with improved spacing */
+}
